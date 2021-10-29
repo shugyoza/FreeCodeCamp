@@ -23,6 +23,8 @@
         $("#target2").appendTo("#right-well"); // moving from left-well div to right-well div
         $("#target3").clone().appendTo("#right-well"); // cloning and appending to right-well by chaining func.
         $("#target1").parent().css("background-color", "red"); // accessing the parent element of an element.
+        $("#right-well").children().css("color", "orange"); // accessing the children element in html.
+        $(".target:nth-child(2)").addClass("animated bounce"); // make the second child of an element (in .target) bounce.
 
     })</script> <!-- script for jQuery -->
 </head>
