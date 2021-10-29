@@ -25,6 +25,8 @@
         $("#target1").parent().css("background-color", "red"); // accessing the parent element of an element.
         $("#right-well").children().css("color", "orange"); // accessing the children element in html.
         $(".target:nth-child(2)").addClass("animated bounce"); // make the second child of an element (in .target) bounce.
+        $(".target:even").addClass("animated shake"); // give class animated shake to even childs in/of .target class
+        $("body").addClass("animated hinge"); // giving class animated hinge to the whole body.
 
     })</script> <!-- script for jQuery -->
 </head>
