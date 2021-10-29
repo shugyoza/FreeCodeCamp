@@ -19,7 +19,10 @@
 
         $("#target2").html("<em>#target2</em>"); // changing html tags and text within an element
         $("#target6").text("#target7"); // changing innerText
-        $("#target5").remove() // removing an html element
+        $("#target5").remove(); // removing an html element
+        $("#target2").appendTo("#right-well"); // moving from left-well div to right-well div
+        $("#target3").clone().appendTo("#right-well"); // cloning and appending to right-well by chaining func.
+
     })</script> <!-- script for jQuery -->
 </head>
 <body>
